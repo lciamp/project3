@@ -13,7 +13,7 @@
 
 Route::get('/', function () {
 
-    $people = ['Lou', 'Amanda', 'Bean'];
+    $people = ['Add', 'Commit', 'Push'];
 
     return view('welcome', compact('people'));
 });
