@@ -1,0 +1,3 @@
+[2016-05-04 21:24:59] local.ERROR: exception 'Symfony\Component\Debug\Exception\FatalErrorException' with message 'syntax error, unexpected '='' in /Users/louciampanelli/project3/storage/framework/views/4ec27ee68d0a72a45fb15b4129a8d513479c8d5f.php:40
+Stack trace:
+#0 {main}  
