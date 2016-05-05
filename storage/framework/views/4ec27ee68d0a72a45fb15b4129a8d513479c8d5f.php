@@ -36,10 +36,10 @@
         </style>
     </head>
     <body>
+        <!-- using blade template language -->
         <?php foreach($people as $person): ?>
             <li><?php echo e($person); ?></li>
         <?php endforeach; ?>
-
 
     </body>
 </html>

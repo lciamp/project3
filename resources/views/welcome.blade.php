@@ -36,7 +36,6 @@
         </style>
     </head>
     <body>
-        <!-- using blade template language -->
         @foreach ($people as $person)
             <li>{{ $person }}</li>
         @endforeach
