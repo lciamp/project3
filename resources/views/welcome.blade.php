@@ -12,7 +12,7 @@
 
             body {
                 margin: 0;
-                padding: 0;
+                padding: 100px;
                 width: 100%;
                 display: table;
                 font-weight: 100;
@@ -36,10 +36,10 @@
         </style>
     </head>
     <body>
-        <div class="container">
-            <div class="content">
-                <div class="title">Laravel 5</div>
-            </div>
-        </div>
+        <!-- using blade template language -->
+        @foreach ($people as $person)
+            <li>{{ $person }}</li>
+        @endforeach
+
     </body>
 </html>
