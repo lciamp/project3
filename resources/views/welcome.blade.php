@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Laravel</title>
+        <title>Hello</title>
 
         <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
@@ -18,6 +18,30 @@
                 font-weight: 100;
                 font-family: 'Lato';
             }
+
+            li {
+                font-weight: 100;
+                font-family: 'Lato';
+                font-size: 25px;
+                padding-left: 15px;
+                list-style: none;
+
+            }
+
+            h1 {
+                font-size:55px;
+                font-family: 'Lato';
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+
+            h2 {
+                font-size: 35px;
+                font-family: 'Lato';
+                font-weight: bold;
+                margin-bottom: 2px;
+            }
+
 
             .container {
                 text-align: center;
@@ -36,9 +60,19 @@
         </style>
     </head>
     <body>
-        @foreach ($people as $person)
-            <li>{{ $person }}</li>
-        @endforeach
+        <h1>Lou Ciampanelli</h1>
+
+        <h2>git commands</h2>
+
+@unless (empty($commands))
+
+    @foreach ($commands as $command)
+
+        <li id='git_{{ $command }}'>git {{ $command }}</li>
+
+    @endforeach
+
+@endunless
 
     </body>
 </html>

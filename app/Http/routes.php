@@ -10,14 +10,15 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+/*
 Route::get('/', function () {
 
-    $people = ['Add', 'Commit', 'Push'];
+    $commands = ['add', 'commit', 'diff', 'push'];
 
-    return view('welcome', compact('people'));
+    return view('welcome', compact('commands'));
 });
+*/
 
-Route::get('/about', function () {
-    return view('pages.about');
-});
+Route::get('/', 'PagesController@home');
+
+Route::get('/about', 'PagesController@about');
