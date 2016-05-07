@@ -23,3 +23,5 @@ class PagesController extends Controller
     }
 
 }
+
+?>

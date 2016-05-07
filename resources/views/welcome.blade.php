@@ -64,15 +64,15 @@
 
         <h2>git commands</h2>
 
-@unless (empty($commands))
+    @unless (empty($commands))
 
-    @foreach ($commands as $command)
+        @foreach ($commands as $command)
 
-        <li id='git_{{ $command }}'>git {{ $command }}</li>
+            <li id='git_{{ $command }}'>git {{ $command }}</li>
 
-    @endforeach
+        @endforeach
 
-@endunless
+    @endunless
 
     </body>
 </html>
