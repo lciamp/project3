@@ -6,22 +6,22 @@ use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
-class PagesController extends Controller
-{
+
+class PagesController extends Controller {
+
     // static home page
     public function home()
     {
-        $commands = ['add', 'commit', 'diff', 'push'];
+        $gitCommands = ['add', 'commit', 'diff', 'push'];
 
-        return view('welcome', compact('commands'));
+        $directions = ['left', 'right', 'up', 'down'];
+
+        return view('welcome', compact('gitCommands', 'directions'));
     }
 
     // static about page
     public function about()
     {
-        return view('pages.about');
+        return view('about');
     }
-
 }
-
-?>
