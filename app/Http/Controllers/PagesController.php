@@ -14,9 +14,13 @@ class PagesController extends Controller {
     {
         $gitCommands = ['add', 'commit', 'diff', 'push'];
 
-        $directions = ['left', 'right', 'up', 'down'];
+        $laravel = ['new', 'serve', 'help', 'make:controller'];
 
-        return view('welcome', compact('gitCommands', 'directions'));
+        $blade = ["@unless('')", "@foreach('')" ,"@yield('')", "@extends('')", "@section('')",];
+
+        $test = array("git" => $gitCommands, "laravel" => $laravel, "blade" => $blade);
+
+        return view('welcome', compact('test'));
     }
 
     // static about page

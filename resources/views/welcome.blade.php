@@ -5,26 +5,39 @@
 
         <h2>git commands</h2>
 
-    @unless (empty($gitCommands))
+        @unless (empty($test['git']))
 
-        @foreach ($gitCommands as $command)
+            @foreach ($test['git'] as $command)
 
-            <li id='git_{{ $command }}'>git {{ $command }}</li>
+                <li id='git_{{ $command }}'>git {{ $command }}</li>
 
-        @endforeach
+            @endforeach
 
-    @endunless
+        @endunless
 
-    <h2>directions</h2>
+        <h2>laravel 5.2</h2>
 
-    @unless (empty($directions))
+        @unless (empty($test['laravel']))
 
-        @foreach ($directions as $direction)
+            @foreach ($test['laravel'] as $command)
 
-            <li id='{{ $direction }}'>{{ $direction }}</li>
+                <li id='laravel_{{ $command }}'>{{ $command }}</li>
 
-        @endforeach
+            @endforeach
 
-    @endunless
+        @endunless
+
+        <h2>blade</h2>
+
+        @unless (empty($test['blade']))
+
+            @foreach ($test['blade'] as $command)
+
+                <li id='blade_{{ $command }}'>{{ $command }}</li>
+
+            @endforeach
+
+        @endunless
+
 
 @stop

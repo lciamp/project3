@@ -3,27 +3,47 @@
 
         <h2>git commands</h2>
 
-    <?php if ( ! (empty($gitCommands))): ?>
+        <?php if ( ! (empty($test['git']))): ?>
 
-        <?php foreach($gitCommands as $command): ?>
+            <?php foreach($test['git'] as $command): ?>
 
-            <li id='git_<?php echo e($command); ?>'>git <?php echo e($command); ?></li>
+                <li id='git_<?php echo e($command); ?>'>git <?php echo e($command); ?></li>
 
-        <?php endforeach; ?>
+                <?php
+                echo key($test);
+                ?>
 
-    <?php endif; ?>
+            <?php endforeach; ?>
 
-        <h2>directions</h2>
+        <?php endif; ?>
 
-    <?php if ( ! (empty($directions))): ?>
+        <h2>laravel 5.2</h2>
 
-        <?php foreach($directions as $command): ?>
+        <?php if ( ! (empty($test['laravel']))): ?>
 
-            <li id='<?php echo e($command); ?>'><?php echo e($command); ?></li>
+            <?php foreach($test['laravel'] as $command): ?>
 
-        <?php endforeach; ?>
+                <li id='laravel_<?php echo e($command); ?>'><?php echo e($command); ?></li>
 
-    <?php endif; ?>
+                <?php
+                echo key($test);
+                ?>
+            <?php endforeach; ?>
+
+        <?php endif; ?>
+
+        <h2>blade</h2>
+
+        <?php if ( ! (empty($test['blade']))): ?>
+
+            <?php foreach($test['blade'] as $command): ?>
+
+                <li id='blade_<?php echo e($command); ?>'><?php echo e($command); ?></li>
+
+            <?php endforeach; ?>
+
+        <?php endif; ?>
+
 
 <?php $__env->stopSection(); ?>
 
