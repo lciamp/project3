@@ -14,7 +14,8 @@
 
         body {
             margin: 0;
-            padding: 100px;
+            padding-top: 50px;
+            padding-left: 100px;
             width: 100%;
             display: table;
             font-weight: 100;

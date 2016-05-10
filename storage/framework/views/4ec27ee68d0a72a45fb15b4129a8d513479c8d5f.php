@@ -1,6 +1,29 @@
 <?php $__env->startSection('content'); ?>
         <h1>Lou Ciampanelli</h1>
 
+        <!-- loop through the associated array -->
+        <?php if ( ! (empty($keys))): ?>
+
+            <?php foreach($keys as $key): ?>
+
+            <h2><?php echo e($key); ?></h2>
+
+                <?php if ( ! (empty($test[$key]))): ?>
+
+                    <?php foreach($test[$key] as $command): ?>
+
+                        <li id='<?php echo e($key); ?>_<?php echo e($command); ?>'><?php echo e($key); ?> <?php echo e($command); ?></li>
+
+                    <?php endforeach; ?>
+
+                <?php endif; ?>
+
+            <?php endforeach; ?>
+
+        <?php endif; ?>
+
+
+<!--
         <h2>git commands</h2>
 
         <?php if ( ! (empty($test['git']))): ?>
@@ -8,10 +31,6 @@
             <?php foreach($test['git'] as $command): ?>
 
                 <li id='git_<?php echo e($command); ?>'>git <?php echo e($command); ?></li>
-
-                <?php
-                echo key($test);
-                ?>
 
             <?php endforeach; ?>
 
@@ -25,9 +44,6 @@
 
                 <li id='laravel_<?php echo e($command); ?>'><?php echo e($command); ?></li>
 
-                <?php
-                echo key($test);
-                ?>
             <?php endforeach; ?>
 
         <?php endif; ?>
@@ -43,7 +59,7 @@
             <?php endforeach; ?>
 
         <?php endif; ?>
-
+-->
 
 <?php $__env->stopSection(); ?>
 

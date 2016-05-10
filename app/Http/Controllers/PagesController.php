@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+//use Illuminate\Http\Request;
 
 use App\Http\Requests;
 
@@ -18,9 +18,11 @@ class PagesController extends Controller {
 
         $blade = ["@unless('')", "@foreach('')" ,"@yield('')", "@extends('')", "@section('')",];
 
-        $test = array("git" => $gitCommands, "laravel" => $laravel, "blade" => $blade);
+        $test = array('git' => $gitCommands, 'laravel' => $laravel, 'blade' => $blade);
 
-        return view('welcome', compact('test'));
+        $keys = array_keys($test);
+
+        return view('welcome', compact('test', 'keys'));
     }
 
     // static about page

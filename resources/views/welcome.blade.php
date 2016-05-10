@@ -1,43 +1,28 @@
 @extends('layout')
 
 @section('content')
-        <h1>Lou Ciampanelli</h1>
 
-        <h2>git commands</h2>
+    <h1>Lou Ciampanelli</h1>
 
-        @unless (empty($test['git']))
+    <!-- loop through the associated array -->
+    @unless(empty($keys))
 
-            @foreach ($test['git'] as $command)
+        @foreach($keys as $key)
 
-                <li id='git_{{ $command }}'>git {{ $command }}</li>
+            <h2>{{ $key }}</h2>
 
-            @endforeach
+            @unless(empty($test[$key]))
 
-        @endunless
+                @foreach($test[$key] as $command)
 
-        <h2>laravel 5.2</h2>
+                    <li id='{{ $key }}_{{ $command }}'>{{ $key }} {{ $command }}</li>
 
-        @unless (empty($test['laravel']))
+                @endforeach
 
-            @foreach ($test['laravel'] as $command)
+            @endunless
 
-                <li id='laravel_{{ $command }}'>{{ $command }}</li>
+        @endforeach
 
-            @endforeach
-
-        @endunless
-
-        <h2>blade</h2>
-
-        @unless (empty($test['blade']))
-
-            @foreach ($test['blade'] as $command)
-
-                <li id='blade_{{ $command }}'>{{ $command }}</li>
-
-            @endforeach
-
-        @endunless
-
+    @endunless
 
 @stop
