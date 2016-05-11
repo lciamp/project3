@@ -18,7 +18,7 @@ class PagesController extends Controller {
 
         $blade = ["@unless('')", "@foreach('')" ,"@yield('')", "@extends('')", "@section('')",];
 
-        $test = array('git' => $gitCommands, 'laravel' => $laravel, 'blade' => $blade);
+        $test = ['git' => $gitCommands, 'laravel' => $laravel, 'blade' => $blade];
 
         $keys = array_keys($test);
 
