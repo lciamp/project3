@@ -4,6 +4,9 @@
 
     <h1>Lou Ciampanelli</h1>
 
+    <button onclick="myFunction()">Try it</button>
+
+    <p><h2 id="demo"></h2></p>
     <!-- loop through the associated array -->
     @unless(empty($keys))
 
@@ -25,4 +28,17 @@
 
     @endunless
 
+@stop
+
+@section('script')
+    <script>
+        function myFunction() {
+            var str = "How are you doing today?";
+            //var res = str.split(",");
+            //alert(res[1]);
+            //alert(res[3]);
+
+            document.getElementById("demo").innerHTML = str;
+        }
+    </script>
 @stop
