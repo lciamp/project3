@@ -8,11 +8,14 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
 
     <link rel="stylesheet" href="<?php echo e(elixir('css/app.css')); ?>">
+    <?php echo $__env->yieldContent('additional-scripts'); ?>
 
 </head>
 <body>
 
     <?php echo $__env->yieldContent('content'); ?>
+
+    <?php echo $__env->yieldContent('script'); ?>
 
 </body>
 

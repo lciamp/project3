@@ -16,7 +16,7 @@ class PagesController extends Controller {
 
         $laravel = ['new', 'serve', 'help', 'make:controller'];
 
-        $blade = ["@unless('')", "@foreach('')" ,"@yield('')", "@extends('')", "@section('')",];
+        $blade = ["@unless()", "@foreach()" ,"@yield()", "@extends()", "@section()"];
 
         $test = ['git' => $gitCommands, 'laravel' => $laravel, 'blade' => $blade];
 
@@ -28,7 +28,7 @@ class PagesController extends Controller {
     // static about page
     public function about()
     {
-        return view('about');
+        return view('pages.about');
     }
-}
 
+}

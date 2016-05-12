@@ -2,6 +2,9 @@
 
     <h1>Lou Ciampanelli</h1>
 
+    <button onclick="myFunction()">Try it</button>
+
+    <p><h2 id="demo"></h2></p>
     <!-- loop through the associated array -->
     <?php if ( ! (empty($keys))): ?>
 
@@ -24,4 +27,18 @@
     <?php endif; ?>
 
 <?php $__env->stopSection(); ?>
+
+<?php $__env->startSection('script'); ?>
+    <script>
+        function myFunction() {
+            var str = "How are you doing today?";
+            //var res = str.split(",");
+            //alert(res[1]);
+            //alert(res[3]);
+
+            document.getElementById("demo").innerHTML = str;
+        }
+    </script>
+<?php $__env->stopSection(); ?>
+
 <?php echo $__env->make('layout', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
