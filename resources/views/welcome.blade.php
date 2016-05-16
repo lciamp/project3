@@ -1,8 +1,8 @@
 @extends('layout')
 
 @section('content')
-
-    <h1>Lou Ciampanelli</h1>
+ <!-- https://coolors.co/app/dce0d9-25231d-452c2b-bc261d-851513 -->
+    <h1>Louis M Ciampanelli Jr</h1>
 
     <button onclick="myFunction()">Try it</button>
 
@@ -34,11 +34,17 @@
     <script>
         function myFunction() {
             var str = "How are you doing today?";
-            //var res = str.split(",");
-            //alert(res[1]);
-            //alert(res[3]);
 
-            document.getElementById("demo").innerHTML = str;
+            if(document.getElementById("demo").innerHTML == "How are you doing today?"){
+
+                document.getElementById("demo").innerHTML = "";
+            }
+            else {
+
+                document.getElementById("demo").innerHTML = str;
+            }
+
+
         }
     </script>
 @stop
