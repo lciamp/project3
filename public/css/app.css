@@ -3,7 +3,7 @@ html, body {
 
 body {
   margin: 0;
-  background-color: red;
+  background-color: white;
   padding-top: 5%;
   padding-left: 5%;
   padding-right: 5%;
@@ -13,16 +13,24 @@ body {
   font-family: 'Lato'; }
 
 li {
+
   font-weight: 100;
   font-family: 'Lato';
-  font-size: 25px;
+  font-size: 1.5em;
   padding-left: 15px;
-  list-style: none; }
+  list-style: none;
+}
+
+ul{
+  margin-top: 0px;
+  display: inline-block;
+  vertical-align: top;
+}
 
 h1 {
   text-align: center;
-  margin-top: 0px;
-  background-color: yellow;
+  margin-top: 0%;
+  background-color: white;
   font-size: 4em;
   width: 90%;
   font-family: 'Lato';
@@ -32,6 +40,7 @@ h1 {
 
 h2 {
   font-size: 2em;
+  width: 90%;
   font-family: 'Lato';
   font-weight: bold;
   margin-bottom: 2px; }
@@ -43,7 +52,7 @@ h2 {
 
 .content {
   text-align: center;
-  display: inline-block; }
+  display: block; }
 
 .title {
   font-size: 96px; }
