@@ -3,8 +3,10 @@ html, body {
 
 body {
   margin: 0;
-  padding-top: 50px;
-  padding-left: 100px;
+  background-color: red;
+  padding-top: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
   width: 100%;
   display: table;
   font-weight: 100;
@@ -18,14 +20,18 @@ li {
   list-style: none; }
 
 h1 {
+  text-align: center;
   margin-top: 0px;
-  font-size: 55px;
+  background-color: yellow;
+  font-size: 4em;
+  width: 90%;
   font-family: 'Lato';
+  color: #25231D;
   font-weight: bold;
   margin-bottom: 2px; }
 
 h2 {
-  font-size: 35px;
+  font-size: 2em;
   font-family: 'Lato';
   font-weight: bold;
   margin-bottom: 2px; }
