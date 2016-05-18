@@ -1,33 +1,33 @@
-@extends('layout')
+@extends('layout', ['title' => 'Louis M Ciampanelli Jr'])
 
 @section('content')
+
  <!-- https://coolors.co/app/dce0d9-25231d-452c2b-bc261d-851513 -->
-    <h1>Louis M Ciampanelli Jr</h1>
 
-    <button onclick="myFunction()">Try it</button>
+    <h1>Bean</h1>
 
-    <p><h2 id="demo"></h2></p>
+ <div id="container">
     <!-- loop through the associated array -->
     @unless(empty($keys))
 
         @foreach($keys as $key)
-
+            <ul>
             <h2>{{ $key }}</h2>
 
             @unless(empty($test[$key]))
 
                 @foreach($test[$key] as $command)
 
-                    <li id='{{ $key }}_{{ $command }}'>{{ $key }} {{ $command }}</li>
+                    <li class="c4" id='{{ $key }}_{{ $command }}'>{{ $key }} {{ $command }}</li>
 
                 @endforeach
 
             @endunless
-
+</ul>
         @endforeach
 
     @endunless
-
+ </div>
 @stop
 
 @section('script')
