@@ -23,10 +23,12 @@
                 @endforeach
 
             @endunless
-</ul>
+
+            </ul>
         @endforeach
 
     @endunless
+
  </div>
 @stop
 
@@ -36,11 +38,9 @@
             var str = "How are you doing today?";
 
             if(document.getElementById("demo").innerHTML == "How are you doing today?"){
-
                 document.getElementById("demo").innerHTML = "";
             }
             else {
-
                 document.getElementById("demo").innerHTML = str;
             }
 
