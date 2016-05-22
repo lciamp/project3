@@ -20,11 +20,23 @@ body {
   font-weight: 100;
   font-family: 'Lato'; }
 
+ul{
+  font-weight: bold;
+  font-family: 'Lato';
+  padding-left: 0px;
+  margin-top: 10px;
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+}
 a {
   text-decoration: none;
 
 }
+#txt{
+  font-size: 2em;
 
+}
 
 .top:link{
   color: #F0F4ED;
@@ -63,24 +75,13 @@ li.c4 {
 
 }
 
-ul{
-  font-weight: bold;
-
-  font-family: 'Lato';
-  padding-left: 0px;
-  margin-top: 10px;
-  display: inline-block;
-  vertical-align: top;
-  width: 20%;
-}
-
 #container {
   align-content: center;
   text-align: center;
   background-color: #F0F4ED;
   width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1 {
@@ -91,7 +92,7 @@ h1 {
   width: 100%;
   z-index: 5;
   font-family: 'Lato';
-  color: #25231D;
+  color: #28363D;
   font-weight: bold;
   margin-bottom: 2px;
 }
@@ -143,7 +144,7 @@ h2 {
 #header-icon{
 
   z-index: 8;
-  border-radius: 6px 6px 0px 0px;
+  border-radius: 6px 6px 0 0;
   height: 50px;
   width: 200px;
 }
@@ -195,7 +196,8 @@ h2 {
 
 #main-info{
   background-color: #008f95;
-  width: 70%; height: 100%;
+  width: 68%;
+  height: 100%;
   font-size: 1.62em;
   color: #F0F4ED; height: 100%;
   text-align: justify;
@@ -217,7 +219,7 @@ h2 {
   align-content: center
 }
 #about-container{
-  width: 80%;
+  width: 1024px;
   background-color: #008f95;
   border-radius: 8px;
   margin: auto;
@@ -228,14 +230,24 @@ img{
   height: auto
 }
 
-ul.edu{
+.icon {
+  font-size: 1.5em
+}
+
+ul.info{
   width: 100%;
 }
 
 li{
   list-style: none;
   padding-left: 2%;
+  font-size: 1.3em;
 }
+
+li.links{
+  font-size: 2em;
+}
+
 
 @keyframes blink{
   0% { opacity:1; }
@@ -268,6 +280,7 @@ li{
   color: #F0F4ED;
   padding-top: 2%;
   align-content: center;
+  color:#F0F4ED;
 }
 
 .banner-container{
@@ -294,6 +307,7 @@ li{
 }
 
 .content{
+  color: #28363D;
   font-weight: bold;
   border-radius: 6px;
   padding: 2%;
@@ -307,8 +321,28 @@ li{
   background-color: #F0F4ED
 }
 
+ul.link{
+  width: 19%;
+  text-align: center;
+}
 strong{
   font-size: 1.3em;
   font-weight: bolder;
 }
+
+.right-div{
+  float: right;
+  background-color: #F0F4ED;
+  width: 50%;
+  height:100%
+}
+
+.left-div{
+  float: left;
+  background-color: #F0F4ED;
+  width: 50%;
+  height: 100%
+}
+
+
 /*# sourceMappingURL=app.css.map */

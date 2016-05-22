@@ -25,6 +25,22 @@ class PagesController extends Controller {
         return view('welcome', compact('test', 'keys'));
     }
 
+    // static home page
+    public function controller()
+    {
+        $gitCommands = ['add', 'commit', 'diff', 'push'];
+
+        $laravel = ['new', 'serve', 'help', 'make:controller'];
+
+        $blade = ["@unless()", "@foreach()" ,"@yield()", "@extends()", "@section()"];
+
+        $test = ['git' => $gitCommands, 'laravel' => $laravel, 'blade' => $blade];
+
+        $keys = array_keys($test);
+
+        return view('controller', compact('test', 'keys'));
+    }
+
     // static about page
     public function about()
     {

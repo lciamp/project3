@@ -24,3 +24,5 @@ Route::get('/', 'PagesController@home');
 Route::get('/about', 'PagesController@about');
 
 Route::get('/icon', 'PagesController@icon');
+
+Route::get('/controller', 'PagesController@controller');
