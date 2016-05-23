@@ -13,7 +13,7 @@ var main = function() {
         $("")
 
         $(".element").typed({
-            strings: ["Welcome to the personal website of ^500", "Louis M Ciampanelli Jr"],
+            strings: ["Welcome to the personal website of ^200", "Louis M Ciampanelli Jr"],
             typeSpeed: 30
         });
 
