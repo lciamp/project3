@@ -286,6 +286,9 @@ li.links{
 .banner-container{
   width: 90%;
   height: 8%;
+
+  display: flex;
+  justify-content: center;
   margin-left: auto;
   margin-right: auto
 
@@ -309,6 +312,7 @@ li.links{
 }
 
 .content{
+  
   color: #28363D;
   font-weight: bold;
   border-radius: 6px;
