@@ -235,13 +235,13 @@ img{
 }
 
 ul.info{
+  font-size: 1.2em;
   width: 100%;
 }
 
 li{
   list-style: none;
   padding-left: 2%;
-  font-size: 1.3em;
 }
 
 li.links{
@@ -285,13 +285,14 @@ li.links{
 
 .banner-container{
   width: 90%;
+  height: 8%;
   margin-left: auto;
   margin-right: auto
 
 }
 
 .banner-info{
-  width: 100%;
+  width: 75%;
   float:left;
   background-color: #008f95;
   margin-left: auto;
@@ -299,8 +300,9 @@ li.links{
 }
 
 .banner-top{
+  text-align: right;
   float: right;
-  width: 10%;
+  width: 15%;
   background-color: #008f95;
   margin-left: auto;
   margin-right: auto;
@@ -317,7 +319,7 @@ li.links{
   height: 78%;
   margin-top: 0px;
   margin-bottom: auto;
-  font-size: 1.8em;
+  font-size: 1.5em;
   background-color: #F0F4ED
 }
 

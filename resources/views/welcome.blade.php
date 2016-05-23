@@ -69,12 +69,13 @@
      <div id="edu" class="banner">
          <div class="banner-container">
              <div class="banner-info">
-                <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size: 1.2em"></i>&nbspEducation
-                 <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+                 <i class="fa fa-graduation-cap" aria-hidden="true" style="font-size: 1.2em"></i>&nbspEducation
              </div>
+             <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+
          </div>
      </div>
-    <div class="content">
+    <div class="content" style="height: 80%">
 
         <ul class="info"><strong>Iona College</strong>, School of Arts and Science (ABET Accredited), New Rochelle, NY
             <li>B.S. <strong>Computer Science</strong>, Minor <strong>Mathematics</strong>, Expected June 2016</li>
@@ -102,13 +103,14 @@
          <div class="banner-container">
              <div class="banner-info">
                  <i class="fa fa-book" aria-hidden="true" style="font-size: 1.2em"></i>&nbspCourses
-                 <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
              </div>
+             <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+
          </div>
      </div>
      <div class="content">
 
-         <div style="float: left; background-color: #F0F4ED; width: 50%; height: 100%">
+         <div style="float: left; background-color: #F0F4ED; width: 50%; height: 80%">
              <ul class="info"><strong>Computer Science:</strong>
                  <li>Computer Science I & II</li>
                  <li>Computer Architecture I & II </li>
@@ -151,12 +153,13 @@
          <div class="banner-container">
              <div class="banner-info">
                  <i class="fa fa-code" aria-hidden="true" style="font-size: 1.2em"></i>&nbspSkills
-                 <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
              </div>
+             <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+
          </div>
      </div>
      <div class="content">
-         <div style="float: left; background-color: #F0F4ED; width: 50%; height: 100%">
+         <div style="float: left; background-color: #F0F4ED; width: 50%; height: 80%">
              <ul class="info"><strong>Programming Languages:</strong>
                  <li>C++</li>
                  <li>php</li>
@@ -192,8 +195,9 @@
          <div class="banner-container">
              <div class="banner-info">
                  <i class="fa fa-envelope" aria-hidden="true" style="font-size: 1.2em"></i>&nbspContact
-                 <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
              </div>
+             <div class="banner-top"><a href="#home" class="top" title="top" tabindex="-1"> top <i class="fa fa-arrow-up" aria-hidden="true"></i></a></div>
+
          </div>
      </div>
      <div style="height: 20%"></div>

@@ -33,7 +33,10 @@ a {
   text-decoration: none;
 
 }
+#txt{
+  font-size: 2em;
 
+}
 
 .top:link{
   color: #F0F4ED;
@@ -232,6 +235,7 @@ img{
 }
 
 ul.info{
+  font-size: 1.2em;
   width: 100%;
 }
 
@@ -269,7 +273,7 @@ li.links{
 
 .banner {
   width: 100%;
-  height: 80px;
+  height: 10%;
   background-color: #008f95;
   font-weight: bold;
   font-size: 2.7em;
@@ -281,13 +285,14 @@ li.links{
 
 .banner-container{
   width: 90%;
+  height: 8%;
   margin-left: auto;
   margin-right: auto
 
 }
 
 .banner-info{
-  width: 100%;
+  width: 75%;
   float:left;
   background-color: #008f95;
   margin-left: auto;
@@ -295,8 +300,9 @@ li.links{
 }
 
 .banner-top{
+  text-align: right;
   float: right;
-  width: 10%;
+  width: 15%;
   background-color: #008f95;
   margin-left: auto;
   margin-right: auto;
@@ -313,7 +319,7 @@ li.links{
   height: 78%;
   margin-top: 0px;
   margin-bottom: auto;
-  font-size: 1.8em;
+  font-size: 1.5em;
   background-color: #F0F4ED
 }
 
@@ -325,4 +331,20 @@ strong{
   font-size: 1.3em;
   font-weight: bolder;
 }
+
+.right-div{
+  float: right;
+  background-color: #F0F4ED;
+  width: 50%;
+  height:100%
+}
+
+.left-div{
+  float: left;
+  background-color: #F0F4ED;
+  width: 50%;
+  height: 100%
+}
+
+
 /*# sourceMappingURL=app.css.map */
