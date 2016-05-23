@@ -14,10 +14,10 @@ var main = function() {
 
         $(".element").typed({
             strings: ["Welcome to the personal website of ^500", "Louis M Ciampanelli Jr"],
-            typeSpeed: 50
+            typeSpeed: 30
         });
 
-        $("#about").delay(8000).fadeIn(1500, function(){
+        $("#about").delay(5000).fadeIn(1500, function(){
             $( "#container" ).fadeIn( 1200 );
         })
     });
