@@ -13,11 +13,11 @@ var main = function() {
         $("")
 
         $(".element").typed({
-            strings: ["Welcome to the personal website of ^200", "Louis M Ciampanelli Jr"],
+            strings: ["Welcome to the personal website of ^100", "Louis M Ciampanelli Jr"],
             typeSpeed: 30
         });
 
-        $("#about").delay(5000).fadeIn(1500, function(){
+        $("#about").delay(6000).fadeIn(1500, function(){
             $( "#container" ).fadeIn( 1200 );
         })
     });
