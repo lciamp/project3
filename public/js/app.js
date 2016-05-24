@@ -18,7 +18,7 @@ var main = function() {
         });
 
         $("#about").delay(6000).fadeIn(1500, function(){
-            $( "#container" ).fadeIn( 900 );
+            $( "#container" ).fadeIn( 400 );
         })
     });
 
