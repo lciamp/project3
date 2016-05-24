@@ -17,7 +17,7 @@ var main = function() {
             typeSpeed: 30
         });
 
-        $("#about").delay(6000).fadeIn(1500, function(){
+        $("#about").delay(6500).fadeIn(1500, function(){
             $( "#container" ).fadeIn( 400 );
         })
     });
