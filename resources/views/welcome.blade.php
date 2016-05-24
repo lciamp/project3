@@ -19,7 +19,7 @@
                 <img class="img-circle" src="img/space.jpg">
             </ul>
             <ul id="main-info">
-                Hello!</br> I'm Louis M Ciampanelli Jr, a recent Computer Science graduate looking to start my career in software engineering. My main interests are web and mobile application development, especially location based apps. My favorite languages are php, JavaScript and Swift but I have a soft spot for C++. To learn more about me, click on the icons below or scroll down. </br>Thanks for your visit!
+                Hello!</br> I'm Louis M Ciampanelli Jr, a recent Computer Science graduate looking to start my career in software engineering. My main interests are web and mobile application development, especially location based apps. My favorite languages are php, python, JavaScript and Swift but I have a soft spot for C++. To learn more about me, click on the icons below or scroll down. </br>Thanks for your visit!
             </ul>
 
         </div>

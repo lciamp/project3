@@ -97,17 +97,17 @@
             <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="315">
-                  <caret line="21" column="267" selection-start-line="21" selection-start-column="267" selection-end-line="21" selection-end-column="267" />
+                  <caret line="21" column="291" selection-start-line="21" selection-start-column="291" selection-end-line="21" selection-end-column="291" />
                   <folding>
-                    <element signature="e#1871#1895#0#HTML" expanded="true" />
-                    <element signature="e#2921#2940#0#HTML" expanded="true" />
-                    <element signature="e#4389#4460#0#HTML" expanded="true" />
-                    <element signature="e#5258#5330#0#HTML" expanded="true" />
-                    <element signature="e#6510#6581#0#HTML" expanded="true" />
-                    <element signature="e#6989#7061#0#HTML" expanded="true" />
-                    <element signature="e#8168#8225#0#HTML" expanded="true" />
-                    <element signature="e#9584#9606#0#HTML" expanded="true" />
-                    <element signature="e#9669#9825#0#HTML" expanded="true" />
+                    <element signature="e#1879#1903#0#HTML" expanded="true" />
+                    <element signature="e#2929#2948#0#HTML" expanded="true" />
+                    <element signature="e#4397#4468#0#HTML" expanded="true" />
+                    <element signature="e#5266#5338#0#HTML" expanded="true" />
+                    <element signature="e#6518#6589#0#HTML" expanded="true" />
+                    <element signature="e#6997#7069#0#HTML" expanded="true" />
+                    <element signature="e#8176#8233#0#HTML" expanded="true" />
+                    <element signature="e#9592#9614#0#HTML" expanded="true" />
+                    <element signature="e#9677#9833#0#HTML" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -293,12 +293,12 @@
       <workItem from="1462919568767" duration="8846000" />
       <workItem from="1462988558043" duration="45358000" />
       <workItem from="1463689868261" duration="30598000" />
-      <workItem from="1463900428497" duration="11593000" />
+      <workItem from="1463900428497" duration="11689000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96395000" />
+    <option name="totallyTimeSpent" value="96491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,15 +400,15 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1871#1895#0#HTML" expanded="true" />
-            <element signature="e#2921#2940#0#HTML" expanded="true" />
-            <element signature="e#4389#4460#0#HTML" expanded="true" />
-            <element signature="e#5258#5330#0#HTML" expanded="true" />
-            <element signature="e#6510#6581#0#HTML" expanded="true" />
-            <element signature="e#6989#7061#0#HTML" expanded="true" />
-            <element signature="e#8168#8225#0#HTML" expanded="true" />
-            <element signature="e#9584#9606#0#HTML" expanded="true" />
-            <element signature="e#9669#9825#0#HTML" expanded="true" />
+            <element signature="e#1879#1903#0#HTML" expanded="true" />
+            <element signature="e#2929#2948#0#HTML" expanded="true" />
+            <element signature="e#4397#4468#0#HTML" expanded="true" />
+            <element signature="e#5266#5338#0#HTML" expanded="true" />
+            <element signature="e#6518#6589#0#HTML" expanded="true" />
+            <element signature="e#6997#7069#0#HTML" expanded="true" />
+            <element signature="e#8176#8233#0#HTML" expanded="true" />
+            <element signature="e#9592#9614#0#HTML" expanded="true" />
+            <element signature="e#9677#9833#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -453,15 +453,15 @@
         <state relative-caret-position="0">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding>
-            <element signature="e#1871#1895#0#HTML" expanded="true" />
-            <element signature="e#2921#2940#0#HTML" expanded="true" />
-            <element signature="e#4389#4460#0#HTML" expanded="true" />
-            <element signature="e#5258#5330#0#HTML" expanded="true" />
-            <element signature="e#6510#6581#0#HTML" expanded="true" />
-            <element signature="e#6989#7061#0#HTML" expanded="true" />
-            <element signature="e#8168#8225#0#HTML" expanded="true" />
-            <element signature="e#9584#9606#0#HTML" expanded="true" />
-            <element signature="e#9669#9825#0#HTML" expanded="true" />
+            <element signature="e#1879#1903#0#HTML" expanded="true" />
+            <element signature="e#2929#2948#0#HTML" expanded="true" />
+            <element signature="e#4397#4468#0#HTML" expanded="true" />
+            <element signature="e#5266#5338#0#HTML" expanded="true" />
+            <element signature="e#6518#6589#0#HTML" expanded="true" />
+            <element signature="e#6997#7069#0#HTML" expanded="true" />
+            <element signature="e#8176#8233#0#HTML" expanded="true" />
+            <element signature="e#9592#9614#0#HTML" expanded="true" />
+            <element signature="e#9677#9833#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,17 +744,17 @@
     <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
-          <caret line="21" column="267" selection-start-line="21" selection-start-column="267" selection-end-line="21" selection-end-column="267" />
+          <caret line="21" column="291" selection-start-line="21" selection-start-column="291" selection-end-line="21" selection-end-column="291" />
           <folding>
-            <element signature="e#1871#1895#0#HTML" expanded="true" />
-            <element signature="e#2921#2940#0#HTML" expanded="true" />
-            <element signature="e#4389#4460#0#HTML" expanded="true" />
-            <element signature="e#5258#5330#0#HTML" expanded="true" />
-            <element signature="e#6510#6581#0#HTML" expanded="true" />
-            <element signature="e#6989#7061#0#HTML" expanded="true" />
-            <element signature="e#8168#8225#0#HTML" expanded="true" />
-            <element signature="e#9584#9606#0#HTML" expanded="true" />
-            <element signature="e#9669#9825#0#HTML" expanded="true" />
+            <element signature="e#1879#1903#0#HTML" expanded="true" />
+            <element signature="e#2929#2948#0#HTML" expanded="true" />
+            <element signature="e#4397#4468#0#HTML" expanded="true" />
+            <element signature="e#5266#5338#0#HTML" expanded="true" />
+            <element signature="e#6518#6589#0#HTML" expanded="true" />
+            <element signature="e#6997#7069#0#HTML" expanded="true" />
+            <element signature="e#8176#8233#0#HTML" expanded="true" />
+            <element signature="e#9592#9614#0#HTML" expanded="true" />
+            <element signature="e#9677#9833#0#HTML" expanded="true" />
           </folding>
         </state>
       </provider>
