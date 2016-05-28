@@ -12,17 +12,9 @@ class PagesController extends Controller {
     // static home page
     public function home()
     {
-        $gitCommands = ['add', 'commit', 'diff', 'push'];
 
-        $laravel = ['new', 'serve', 'help', 'make:controller'];
 
-        $blade = ["@unless()", "@foreach()" ,"@yield()", "@extends()", "@section()"];
-
-        $test = ['git' => $gitCommands, 'laravel' => $laravel, 'blade' => $blade];
-
-        $keys = array_keys($test);
-
-        return view('welcome', compact('test', 'keys'));
+        return view('welcome');
     }
 
     // static home page

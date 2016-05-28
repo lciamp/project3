@@ -174,6 +174,7 @@
                  <li>Laravel/Lumen</li>
                  <li>Django</li>
                  <li>Flask</li>
+                 <li>iOS/Cocoa</li>
              </ul>
              <ul class="info"><strong>Database:</strong>
                  <li>MySQL</li>
