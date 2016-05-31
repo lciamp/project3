@@ -5939,3 +5939,26 @@ Stack trace:
 #62 /Users/louciampanelli/project3/public/index.php(54): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
 #63 /Users/louciampanelli/project3/server.php(21): require_once('/Users/louciamp...')
 #64 {main}  
+[2016-05-28 01:24:31] local.ERROR: exception 'Symfony\Component\Console\Exception\CommandNotFoundException' with message 'Command "make" is not defined.
+
+Did you mean one of these?
+    make:controller
+    make:middleware
+    make:migration
+    make:provider
+    make:listener
+    make:console
+    make:request
+    make:policy
+    make:seeder
+    make:model
+    make:event
+    make:test
+    make:auth
+    make:job' in /Users/louciampanelli/project3/vendor/symfony/console/Application.php:512
+Stack trace:
+#0 /Users/louciampanelli/project3/vendor/symfony/console/Application.php(183): Symfony\Component\Console\Application->find('make')
+#1 /Users/louciampanelli/project3/vendor/symfony/console/Application.php(117): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#2 /Users/louciampanelli/project3/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(107): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/louciampanelli/project3/artisan(36): Illuminate\Foundation\Console\Kernel->handle(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 {main}  

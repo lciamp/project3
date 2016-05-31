@@ -21,8 +21,18 @@ Route::get('/', function () {
 
 Route::get('/', 'PagesController@home');
 
-Route::get('/about', 'PagesController@about');
+//Route::get('/about', 'PagesController@about');
 
-Route::get('/icon', 'PagesController@icon');
+//Route::get('/icon', 'PagesController@icon');
 
-Route::get('/controller', 'PagesController@controller');
+//Route::get('/controller', 'PagesController@controller');
+
+// INDEX OF ALL CARDS
+//Route::get('cards', 'CardsController@index');
+
+// ROUTE FOR FORM TO CREATE NEW CARD
+//Route::get('cards/create', 'CardsController@create');
+
+// ROUTE TO STORE THE CARD IN THE DATABASE
+//Route::post('/cards', 'CardsController@store');
+
