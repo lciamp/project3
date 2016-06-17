@@ -12,8 +12,6 @@ class PagesController extends Controller {
     // static home page
     public function home()
     {
-
-
         return view('welcome');
     }
 
