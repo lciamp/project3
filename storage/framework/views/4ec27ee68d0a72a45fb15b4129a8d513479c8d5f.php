@@ -17,7 +17,7 @@
                 <img class="img-circle" src="img/space.jpg">
             </ul>
             <ul id="main-info">
-                Hello!</br> I'm Louis M Ciampanelli Jr, a recent Computer Science graduate looking to start my career in software engineering. My main interests are web and mobile application development, especially location based apps. My favorite languages are php, python, JavaScript and Swift but I have a soft spot for C++. To learn more about me, click on the icons below or scroll down. </br>Thanks for your visit!
+                Hello!</br> I'm Louis M Ciampanelli Jr, a recent Computer Science graduate looking to start my career in software engineering. My main interests are API development and location based software. I enjoy working with PHP & Laravel, swift and C++. To learn more about me, click on the icons below or scroll down. </br>Thanks for your visit!
             </ul>
 
         </div>
@@ -228,7 +228,7 @@
              </a>
          </ul>
 
-         <div id="txt" style="-webkit-user-select: auto;width: 100%; color: #28363D; background-color: #F0F4ED; text-align: center; height:20%;  padding-top: 2%; font-size: 1.8em">
+         <div id="txt" style="-webkit-user-select: auto; width: 100%; color: #28363D; background-color: #F0F4ED; text-align: center; height:20%;  padding-top: 2%; font-size: 1.8em">
 
          </div>
 
@@ -242,6 +242,17 @@
     <script src="js/typed.js"></script>
     <script src="js/scrollify.js"></script>
     <script src="js/app.js"></script>
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-78463620-1', 'lciamp.herokuapp.com');
+        ga('send', 'pageview');
+
+    </script>
 
 <?php $__env->stopSection(); ?>
 

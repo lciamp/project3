@@ -19,7 +19,7 @@
                 <img class="img-circle" src="img/space.jpg">
             </ul>
             <ul id="main-info">
-                Hello!</br> I'm Louis M Ciampanelli Jr, a recent Computer Science graduate looking to start my career in software engineering. My main interests are API development and location based software. I enjoy working with php & Laravel, swift and C++. To learn more about me, click on the icons below or scroll down. </br>Thanks for your visit!
+                Hello!</br> I'm Louis M Ciampanelli Jr, a recent Computer Science graduate looking to start my career in software engineering. My main interests are API development and location based software. I enjoy working with PHP & Laravel, swift and C++. To learn more about me, click on the icons below or scroll down. </br>Thanks for your visit!
             </ul>
 
         </div>
