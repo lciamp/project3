@@ -35,4 +35,3 @@ Route::get('cards/create', 'CardsController@create');
 
 // ROUTE TO STORE THE CARD IN THE DATABASE
 Route::post('/cards', 'CardsController@store');
-

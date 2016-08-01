@@ -78,7 +78,7 @@
     <div class="content" style="height: 80%">
 
         <ul class="info"><strong>Iona College</strong>, School of Arts and Science (ABET Accredited), New Rochelle, NY
-            <li>B.S. <strong>Computer Science</strong>, Minor <strong>Mathematics</strong>, Expected June 2016</li>
+            <li>B.S. <strong>Computer Science</strong>, Minor <strong>Mathematics</strong>, Awarded: June 2016</li>
             <li>GPA: <strong>3.5</strong>, Major: <strong >3.8</strong></li>
         </ul>
 
